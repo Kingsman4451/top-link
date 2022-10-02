@@ -1,0 +1,48 @@
+.header {
+  background-color: #e8e9f1;
+}
+.navbar__item-link {
+  color: #182f43;
+  line-height: 19px;
+  border: 2px solid transparent;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.navbar__item-link:hover {
+  border: 2px solid #673ab7;
+  border-radius: 8px;
+  color: #673ab7;
+}
+
+.login-btn {
+  color: #f7f7ff;
+  background: linear-gradient(180deg,#673ab7,#512da8);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  line-height: 24px;
+  padding: 12px 24px;
+  transition: 0.3s;
+}
+
+.login-btn:hover {
+  background: #fff;
+  border: 2px solid #673ab7;
+  color: #673ab7;
+}
+
+.register-btn {
+  color: #673ab7;
+  border: 2px solid #673ab7;
+  background: transparent;
+  border-radius: 8px;
+  line-height: 24px;
+  padding: 12px 24px;
+  transition: 0.3s;
+}
+
+.register-btn:hover {
+  background: linear-gradient(180deg,#673ab7,#512da8);
+  color: #fff;
+  border: 2px solid transparent;
+}
